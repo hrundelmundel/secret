@@ -2,338 +2,361 @@
 <html lang="eng">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ᨳ𝓢𝓮𝓬𝓻𝓮𝓽ଓ</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ᨳ𝓐𝓷𝓰𝓮𝓵ଓ</title>
 
-    <!-- Bobblehead Bunny Cursor -->
-    <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/bobblehead-bunny-42f04b22-32.css">
+    
+</body>
+</html>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/bobblehead-bunny-42f04b22-32.css">
 
-    <link rel="stylesheet" href="/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
 
-    <div class="desktop">
+<div class="desktop">
 
-        <div class="wallpaper"></div>
+    <div class="wallpaper"></div>
 
-        
-        <div class="icons">
-            <a href="#" class="icon">
-                <img src="icon3.jpg" alt="icon">
-                <span>music.exe</span>
-            </a>
-        </div>
-
-       
-        <div class="window profile">
-            <div class="titlebar">
-                profile.exe
-                <div class="buttons">
-                    <span class="btn-win">_</span>
-                    <span class="btn-win">□</span>
-                    <span class="btn-win">✕</span>
-                </div>
-            </div>
-            <div class="content profile-content">
-                <img src="pic11.jpg" class="profile-pic" alt="pic">
-                <div class="profile-info">
-                    <p><b>имя:</b> ???</p>
-                    <p><b>возраст:</b> ???</p>
-                    <p><b>статус:</b> online</p>
-                    <img src="alice.jpg" class="profile-banner" alt="banner">
-                </div>
-            </div>
-        </div>
-
-       
-        <div class="window about">
-            <div class="titlebar">
-                welcome.exe
-                <div class="buttons">
-                    <span class="btn-win">_</span>
-                    <span class="btn-win">□</span>
-                    <span class="btn-win">✕</span>
-                </div>
-            </div>
-            <div class="content about-content">
-                <div class="login-box">
-                    <img src="pic3.jpg" class="login-image">
-                    <h3>log</h3>
-                    <input type="text" placeholder="не выдумал">
-                    <input type="password" placeholder="пусть будет">
-                    <button>enter</button>
-                </div>
-                <div class="about-box">
-                    <img src="pic13.jpg" alt="pic">
-                    <div class="textbox">
-                        angelic whispersৎ⋆.˚
-                        <br><br>
-                        — «Страннолюбия не забывайте, ибо через него некоторые, не зная того, оказали гостеприимство
-                        Ангелам…»
-                        <br><br>
-                        — «И сам Сатана принимает вид Ангела света, так велика ли вещь, если и слуги его принимают вид
-                        слуг праведности?»
-                        <br><br>
-                        — «И увидел я другого Ангела, сходящего с неба, облечённого облаком; над головой его была
-                        радуга, и лицо его — как солнце, и ноги его — как столпы огненные…»
-                        <br><br>
-                        — «И спросил я у Ангела, говорившего со мною: “Что это, господин мой?” И отвечал Ангел: “Разве
-                        ты не знаешь, что это?” И сказал я: “Нет, господин мой…”»
-                        <br><br>
-                        — «Но Ангел сказал им: “Не бойтесь; я возвещаю вам великую радость, которая будет всем людям…”»
-                        <br><br>
-                        «Ангелам Своим заповедает о тебе — хранить тебя на всех путях твоих: на руках понесут тебя, да
-                        не преткнёшься о камень ногою твоею.»
-                        <!-- <img src="aerith.jpg" class="about-banner" alt="aerith"> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-        <div class="window playlist">
-            <div class="titlebar">
-                playlist.mp3
-                <div class="buttons">
-                    <span class="btn-win">_</span>
-                    <span class="btn-win">□</span>
-                    <span class="btn-win">✕</span>
-                </div>
-            </div>
-            <div class="content">
-                <img src="banner5.jpg" class="album" alt="album">
-
-                <div class="custom-player">
-                    <audio id="audioPlayer"></audio>
-
-                    <div class="track-title" id="nowPlaying">...</div>
-
-                    <div class="progress-container">
-                        <span id="currentTime">0:00</span>
-                        <input type="range" id="progressBar" value="0" min="0" max="100">
-                        <span id="duration">0:00</span>
-                    </div>
-
-                    <div class="controls">
-                        <button id="prevBtn" class="player-btn">⏮</button>
-                        <button id="playBtn" class="player-btn">▶</button>
-                        <button id="nextBtn" class="player-btn">⏭</button>
-                        <div class="volume-box">
-                            <span>🔊</span>
-                            <input type="range" id="volumeBar" value="100" min="0" max="100">
-                        </div>
-                    </div>
-
-                    <div class="playlist-box">
-                        <ul id="playlistTracks"></ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        
-
-        
-        <div class="window gallery">
-            <div class="titlebar">
-                gallery.exe
-                <div class="buttons">
-                    <span class="btn-win">_</span>
-                    <span class="btn-win">□</span>
-                    <span class="btn-win">✕</span>
-                </div>
-            </div>
-            <div class="content gallery-content">
-                <img src="banner.jpg" alt="img">
-                <img src="banner2.jpg" alt="img">
-                <img src="banner4.jpg" alt="img">
-                <img src="banner3.jpg" alt="img">
-            </div>
-        </div>
-
-        
-        <img src="angel.jpg" class="angel" alt="angel">
-
-        
-        <div class="blinkies">
-            <img src="1.gif" alt="gif">
-            <img src="2.gif" alt="gif">
-            <img src="3.gif" alt="gif">
-            <img src="4.gif" alt="gif">
-            <img src="5.gif" alt="gif">
-            <img src="6.gif" alt="gif">
-            <img src="7.gif" alt="gif">
-            <img src="8.gif" alt="gif">
-            <img src="9.gif" alt="gif">
-            <img src="10.gif" alt="gif">
-        </div>
-
-       
-        <div class="taskbar">
-            <div class="start">start</div>
-            <div class="clock">2004</div>
-        </div>
-
+   
+    <div class="icons">
+        <a href="#" class="icon">
+            <img src="icon3.jpg" alt="icon">
+            <span>music.exe</span>
+        </a>
     </div>
 
-    <script>
-        // --- перетащить окна (Drag Drop) ---
-        let highestZIndex = 100;
+    
+    <div class="window profile">
+        <div class="titlebar">
+            profile.exe
+            <div class="buttons">
+                <span class="btn-win">_</span>
+                <span class="btn-win">□</span>
+                <span class="btn-win">✕</span>
+            </div>
+        </div>
+        <div class="content profile-content">
+            <img src="pic11.jpg" class="profile-pic" alt="pic">
+            <div class="profile-info">
+                <p><b>имя:</b> ???</p>
+                <p><b>возраст:</b> ???</p>
+                <p><b>статус:</b> online</p>
+                <img src="alice.jpg" class="profile-banner" alt="banner">
+            </div>
+        </div>
+    </div>
 
-        document.querySelectorAll('.window').forEach(win => {
-            const titlebar = win.querySelector('.titlebar');
+    
+    <div class="window about">
+        <div class="titlebar">
+            greetings.exe
+            <div class="buttons">
+                <span class="btn-win">_</span>
+                <span class="btn-win">□</span>
+                <span class="btn-win">✕</span>
+            </div>
+        </div>
+        <div class="content about-content">
+            <div class="login-box">
+                <img src="pic3.jpg" class="login-image" alt="pic">
+                <h3>log</h3>
+                <input type="text" placeholder="не придумал">
+                <input type="password" placeholder="пусть будет?">
+                <button>enter</button>
+            </div>
+            <div class="about-box">
+                <img src="pic13.jpg" alt="pic">
+                <div class="textbox">
+                    angelic whispers ♡ Hebrews 13:2ৎ⋆.˚
+                    <br><br>
+                    — «Страннолюбия не забывайте, ибо через него некоторые, не зная того, оказали гостеприимство Ангелам…»
+                    <br><br>
+                    — «И сам Сатана принимает вид Ангела света, так велика ли вещь, если и слуги его принимают вид слуг праведности?»
+                    <br><br>
+                    — «И увидел я другого Ангела, сходящего с неба, облечённого облаком; над головой его была радуга, и лицо его — как солнце, и ноги его — как столпы огненные…»
+                    <br><br>
+                    — «И спросил я у Ангела, говорившего со мною: “Что это, господин мой?” И отвечал Ангел: “Разве ты не знаешь, что это?” И сказал я: “Нет, господин мой…”»
+                    <br><br>
+                    — «Но Ангел сказал им: “Не бойтесь; я возвещаю вам великую радость, которая будет всем людям…”»
+                    <br><br>
+                    «Ангелам Своим заповедает о тебе — хранить тебя на всех путях твоих: на руках понесут тебя, да не преткнёшься о камень ногою твоею.»
+                    — Псалом 90:11-12
+                    <!-- <img src="aerith.jpg" class="about-banner" alt="angel banner"> -->
+                </div>
+            </div>
+        </div>
+    </div>
 
-            win.addEventListener('mousedown', () => {
-                highestZIndex++;
-                win.style.zIndex = highestZIndex;
-            });
+   
+    <div class="window playlist">
+        <div class="titlebar">
+            playlist.mp3
+            <div class="buttons">
+                <span class="btn-win">_</span>
+                <span class="btn-win">□</span>
+                <span class="btn-win">✕</span>
+            </div>
+        </div>
+        <div class="content">
+            <img src="banner5.jpg" class="album" alt="album">
+            
+            <div class="custom-player">
+                <audio id="audioPlayer"></audio>
 
-            if (!titlebar) return;
+                <div class="track-title" id="nowPlaying">...</div>
 
-            let isDragging = false;
-            let offsetX = 0;
-            let offsetY = 0;
+                <div class="progress-container">
+                    <span id="currentTime">0:00</span>
+                    <input type="range" id="progressBar" value="0" min="0" max="100">
+                    <span id="duration">0:00</span>
+                </div>
 
-            titlebar.addEventListener('mousedown', (e) => {
-                isDragging = true;
-                const rect = win.getBoundingClientRect();
-                offsetX = e.clientX - rect.left;
-                offsetY = e.clientY - rect.top;
+                <div class="controls">
+                    <button id="prevBtn" class="player-btn">⏮</button>
+                    <button id="playBtn" class="player-btn">▶</button>
+                    <button id="nextBtn" class="player-btn">⏭</button>
+                    <div class="volume-box">
+                        <span>🔊</span>
+                        <input type="range" id="volumeBar" value="100" min="0" max="100">
+                    </div>
+                </div>
 
-                document.addEventListener('mousemove', onMouseMove);
-                document.addEventListener('mouseup', onMouseUp);
-            });
+                <div class="playlist-box">
+                    <ul id="playlistTracks"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
 
-            function onMouseMove(e) {
-                if (!isDragging) return;
 
-                let left = e.clientX - offsetX;
-                let top = e.clientY - offsetY;
+    <div class="window gallery">
+        <div class="titlebar">
+            gallery.exe
+            <div class="buttons">
+                <span class="btn-win">_</span>
+                <span class="btn-win">□</span>
+                <span class="btn-win">✕</span>
+            </div>
+        </div>
+        <div class="content gallery-content">
+            <img src="banner.jpg" alt="img">
+            <img src="banner2.jpg" alt="img">
+            <img src="banner4.jpg" alt="img">
+            <img src="banner3.jpg" alt="img">
+        </div>
+    </div>
 
-                const desktop = document.querySelector('.desktop');
-                const desktopRect = desktop.getBoundingClientRect();
+    
+    <img src="angel.jpg" class="angel" alt="angel">
 
-                if (left < 0) left = 0;
-                if (top < 0) top = 0;
-                if (left + win.offsetWidth > desktopRect.width) left = desktopRect.width - win.offsetWidth;
-                if (top + win.offsetHeight > desktopRect.height - 35) top = desktopRect.height - 35 - win.offsetHeight;
+    
+    <div class="blinkies">
+        <img src="1.gif" alt="gif">
+        <img src="2.gif" alt="gif">
+        <img src="3.gif" alt="gif">
+        <img src="4.gif" alt="gif">
+        <img src="5.gif" alt="gif">
+        <img src="6.gif" alt="gif">
+        <img src="7.gif" alt="gif">
+        <img src="8.gif" alt="gif">
+        <img src="9.gif" alt="gif">
+        <img src="10.gif" alt="gif">
+    </div>
 
-                win.style.left = left + 'px';
-                win.style.top = top + 'px';
-            }
+  
+    <div class="taskbar">
+        <div class="start">START</div>
+        <div class="clock">2005</div>
+    </div>
 
-            function onMouseUp() {
-                isDragging = false;
-                document.removeEventListener('mousemove', onMouseMove);
-                document.removeEventListener('mouseup', onMouseUp);
-            }
-        });
+</div>
 
-        const playlistData = [
-            { title: "ᅠ⠀︎ ︎⠀︎ – ⏜͡     ℎ𝑜𝑝𝑒  ৎִ  ‍‍  ⸝⸝ ㅤ۫  ", src: "7060987354_1.mp3" },
-            { title: "– ⏜͡ ℎ𝑎𝑙𝑜 ৎִ ‍  ⸝⸝ ㅤ۫ ", src: "ᅠ    -   halo ৎ.mp3" },
-        ];
+<script>
 
-        let currentTrackIndex = 0;
+let highestZIndex = 100;
 
-        const audioPlayer = document.getElementById('audioPlayer');
-        const playBtn = document.getElementById('playBtn');
-        const prevBtn = document.getElementById('prevBtn');
-        const nextBtn = document.getElementById('nextBtn');
-        const progressBar = document.getElementById('progressBar');
-        const currentTimeEl = document.getElementById('currentTime');
-        const durationEl = document.getElementById('duration');
-        const volumeBar = document.getElementById('volumeBar');
-        const nowPlaying = document.getElementById('nowPlaying');
-        const playlistTracksEl = document.getElementById('playlistTracks');
+document.querySelectorAll('.window').forEach(win => {
+    const titlebar = win.querySelector('.titlebar');
 
-        function renderPlaylist() {
-            playlistTracksEl.innerHTML = '';
-            playlistData.forEach((track, index) => {
-                const li = document.createElement('li');
-                li.textContent = track.title;
-                if (index === currentTrackIndex) li.classList.add('active');
-                li.addEventListener('click', () => {
-                    currentTrackIndex = index;
-                    loadTrack(currentTrackIndex);
-                    audioPlayer.play();
-                    playBtn.textContent = '⏸';
-                });
-                playlistTracksEl.appendChild(li);
-            });
-        }
+    const bringToFront = () => {
+        highestZIndex++;
+        win.style.zIndex = highestZIndex;
+    };
 
-        function loadTrack(index) {
-            const track = playlistData[index];
-            audioPlayer.src = track.src;
-            nowPlaying.textContent = track.title;
-            renderPlaylist();
-        }
+    win.addEventListener('mousedown', bringToFront);
+    win.addEventListener('touchstart', bringToFront, {passive: true});
 
-        function formatTime(seconds) {
-            if (isNaN(seconds)) return '0:00';
-            const min = Math.floor(seconds / 60);
-            const sec = Math.floor(seconds % 60);
-            return `${min}:${sec < 10 ? '0' : ''}${sec}`;
-        }
+    if (!titlebar) return;
 
-        playBtn.addEventListener('click', () => {
-            if (audioPlayer.paused) {
-                audioPlayer.play();
-                playBtn.textContent = '⏸';
-            } else {
-                audioPlayer.pause();
-                playBtn.textContent = '▶';
-            }
-        });
+    let isDragging = false;
+    let offsetX = 0;
+    let offsetY = 0;
 
-        nextBtn.addEventListener('click', () => {
-            currentTrackIndex = (currentTrackIndex + 1) % playlistData.length;
+    const startDrag = (clientX, clientY) => {
+        isDragging = true;
+        const rect = win.getBoundingClientRect();
+        offsetX = clientX - rect.left;
+        offsetY = clientY - rect.top;
+    };
+
+    const moveDrag = (clientX, clientY) => {
+        if (!isDragging) return;
+
+        let left = clientX - offsetX;
+        let top = clientY - offsetY;
+
+        const desktop = document.querySelector('.desktop');
+        const desktopRect = desktop.getBoundingClientRect();
+
+        if (left < 0) left = 0;
+        if (top < 0) top = 0;
+        if (left + win.offsetWidth > desktopRect.width) left = desktopRect.width - win.offsetWidth;
+        if (top + win.offsetHeight > desktopRect.height - 30) top = desktopRect.height - 30 - win.offsetHeight;
+
+        win.style.left = left + 'px';
+        win.style.top = top + 'px';
+    };
+
+    const stopDrag = () => {
+        isDragging = false;
+    };
+
+  
+    titlebar.addEventListener('mousedown', (e) => {
+        startDrag(e.clientX, e.clientY);
+        const onMouseMove = (e) => moveDrag(e.clientX, e.clientY);
+        const onMouseUp = () => {
+            stopDrag();
+            document.removeEventListener('mousemove', onMouseMove);
+            document.removeEventListener('mouseup', onMouseUp);
+        };
+        document.addEventListener('mousemove', onMouseMove);
+        document.addEventListener('mouseup', onMouseUp);
+    });
+
+  
+    titlebar.addEventListener('touchstart', (e) => {
+        const touch = e.touches[0];
+        startDrag(touch.clientX, touch.clientY);
+        const onTouchMove = (e) => {
+            const touch = e.touches[0];
+            moveDrag(touch.clientX, touch.clientY);
+        };
+        const onTouchEnd = () => {
+            stopDrag();
+            document.removeEventListener('touchmove', onTouchMove);
+            document.removeEventListener('touchend', onTouchEnd);
+        };
+        document.addEventListener('touchmove', onTouchMove, {passive: false});
+        document.addEventListener('touchend', onTouchEnd);
+    }, {passive: true});
+});
+
+
+const playlistData = [
+    { title: "ᅠ⠀︎ ︎⠀︎ – ⏜͡     ℎ𝑜𝑝𝑒  ৎִ  ‍‍  ⸝⸝ ㅤ۫  .mp3", src: "7060987354_1.mp3" },
+    { title: "ᅠ⠀︎ ︎⠀︎ – ⏜͡ ℎ𝑎𝑙𝑜 ৎִ ‍‍ ⸝⸝.mp3", src: "ᅠ    -   halo ৎ.mp3" },
+];
+
+let currentTrackIndex = 0;
+
+const audioPlayer = document.getElementById('audioPlayer');
+const playBtn = document.getElementById('playBtn');
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const progressBar = document.getElementById('progressBar');
+const currentTimeEl = document.getElementById('currentTime');
+const durationEl = document.getElementById('duration');
+const volumeBar = document.getElementById('volumeBar');
+const nowPlaying = document.getElementById('nowPlaying');
+const playlistTracksEl = document.getElementById('playlistTracks');
+
+function renderPlaylist() {
+    playlistTracksEl.innerHTML = '';
+    playlistData.forEach((track, index) => {
+        const li = document.createElement('li');
+        li.textContent = track.title;
+        if (index === currentTrackIndex) li.classList.add('active');
+        li.addEventListener('click', () => {
+            currentTrackIndex = index;
             loadTrack(currentTrackIndex);
             audioPlayer.play();
             playBtn.textContent = '⏸';
         });
+        playlistTracksEl.appendChild(li);
+    });
+}
 
-        prevBtn.addEventListener('click', () => {
-            currentTrackIndex = (currentTrackIndex - 1 + playlistData.length) % playlistData.length;
-            loadTrack(currentTrackIndex);
-            audioPlayer.play();
-            playBtn.textContent = '⏸';
-        });
+function loadTrack(index) {
+    const track = playlistData[index];
+    audioPlayer.src = track.src;
+    nowPlaying.textContent = track.title;
+    renderPlaylist();
+}
 
-        audioPlayer.addEventListener('timeupdate', () => {
-            if (audioPlayer.duration) {
-                const progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
-                progressBar.value = progress;
-                currentTimeEl.textContent = formatTime(audioPlayer.currentTime);
-                durationEl.textContent = formatTime(audioPlayer.duration);
-            }
-        });
+function formatTime(seconds) {
+    if (isNaN(seconds)) return '0:00';
+    const min = Math.floor(seconds / 60);
+    const sec = Math.floor(seconds % 60);
+    return `${min}:${sec < 10 ? '0' : ''}${sec}`;
+}
 
-        progressBar.addEventListener('input', () => {
-            if (audioPlayer.duration) {
-                audioPlayer.currentTime = (progressBar.value / 100) * audioPlayer.duration;
-            }
-        });
+playBtn.addEventListener('click', () => {
+    if (audioPlayer.paused) {
+        audioPlayer.play();
+        playBtn.textContent = '⏸';
+    } else {
+        audioPlayer.pause();
+        playBtn.textContent = '▶';
+    }
+});
 
-        volumeBar.addEventListener('input', () => {
-            audioPlayer.volume = volumeBar.value / 100;
-        });
+nextBtn.addEventListener('click', () => {
+    currentTrackIndex = (currentTrackIndex + 1) % playlistData.length;
+    loadTrack(currentTrackIndex);
+    audioPlayer.play();
+    playBtn.textContent = '⏸';
+});
 
-        audioPlayer.addEventListener('ended', () => {
-            nextBtn.click();
-        });
+prevBtn.addEventListener('click', () => {
+    currentTrackIndex = (currentTrackIndex - 1 + playlistData.length) % playlistData.length;
+    loadTrack(currentTrackIndex);
+    audioPlayer.play();
+    playBtn.textContent = '⏸';
+});
 
-        loadTrack(currentTrackIndex);
-    </script>
+audioPlayer.addEventListener('timeupdate', () => {
+    if (audioPlayer.duration) {
+        const progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+        progressBar.value = progress;
+        currentTimeEl.textContent = formatTime(audioPlayer.currentTime);
+        durationEl.textContent = formatTime(audioPlayer.duration);
+    }
+});
+
+progressBar.addEventListener('input', () => {
+    if (audioPlayer.duration) {
+        audioPlayer.currentTime = (progressBar.value / 100) * audioPlayer.duration;
+    }
+});
+
+volumeBar.addEventListener('input', () => {
+    audioPlayer.volume = volumeBar.value / 100;
+});
+
+audioPlayer.addEventListener('ended', () => {
+    nextBtn.click();
+});
+
+loadTrack(currentTrackIndex);
+</script>
 
 </body>
-
 </html>
