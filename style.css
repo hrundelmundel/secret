@@ -528,3 +528,85 @@ input[type="range"]::-webkit-slider-thumb {
     border: 1px solid #cfcfcf;
     border-radius: 4px;
 }
+
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .window {
+        max-height: calc(100vh - 40px);
+    }
+
+    /* PROFILE */
+    .profile {
+        width: 230px;
+        height: 180px;
+        left: 70px;
+        top: 10px;
+    }
+    .profile-pic {
+        width: 70px;
+        height: 100px;
+    }
+
+    /* ABOUT / WELCOME */
+    .about {
+        width: 440px;
+        height: 270px;
+        left: 230px;
+        top: 15px;
+    }
+    .about-box img {
+        width: 90px;
+        height: 160px;
+    }
+    .textbox {
+        height: 160px;
+        font-size: 11px;
+    }
+    .login-image {
+        height: 70px;
+    }
+
+    /* PLAYLIST */
+    .playlist {
+        width: 250px;
+        height: 260px;
+        left: 80px;
+        top: 110px;
+    }
+    .album {
+        height: 60px;
+    }
+    .playlist-box {
+        height: 55px;
+    }
+
+    /* GALLERY */
+    .gallery {
+        width: 260px;
+        height: 180px;
+        left: 310px;
+        top: 120px;
+    }
+    .gallery-content img {
+        height: 55px;
+    }
+
+    /* CHARACTER & ERRORS */
+    .angel {
+        height: 220px;
+        right: 10px;
+    }
+    .error-image {
+        width: 100px;
+        bottom: 45px;
+        left: 10px;
+    }
+
+    /* BLINKIES */
+    .blinkies {
+        height: 22px;
+    }
+    .blinkies img {
+        height: 14px;
+    }
+}
